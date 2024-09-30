@@ -13,8 +13,8 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // WiFi credentials
-const char* ssid = "Antonelli";
-const char* password = "maomao1206";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Weather API details
 const char* apiEndpoint = "http://api.openweathermap.org/data/2.5/weather";
