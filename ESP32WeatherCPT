@@ -18,7 +18,7 @@ const char* password = "maomao1206";
 
 // Weather API details
 const char* apiEndpoint = "http://api.openweathermap.org/data/2.5/weather";
-const char* apiKey = "033deb16de9a0c7233434ad8a45a321d";  // Replace with your OpenWeatherMap API key
+const char* apiKey = "YOUR_API_KEY";  // Replace with your OpenWeatherMap API key
 
 void setup() {
   Serial.begin(115200);
